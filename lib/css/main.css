@@ -26,7 +26,7 @@ main {
     border: 1px solid grey;
     padding: 2px;
     justify-self: start;
-    align-self: start;
+    align-self: center;
 }
 
 .reset-button:hover {
@@ -37,7 +37,7 @@ main {
     grid-column: 5 / span 1;
     grid-row: 2 / span 1;
     align-self: center;
-    justify-self: center;
+    justify-self: end;
 }
 
 .boxes {
