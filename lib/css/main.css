@@ -19,6 +19,20 @@ main {
     grid-template-rows: 100px 100px 100px 100px 100px;
 }
 
+.reset-button {
+    grid-column: 2 / span 1;
+    grid-row: 5 / span 1;
+    cursor: pointer;
+    border: 1px solid grey;
+    padding: 2px;
+    justify-self: start;
+    align-self: start;
+}
+
+.reset-button:hover {
+    background-color: lightgrey;
+}
+
 .boxes {
     cursor: pointer;
 }
